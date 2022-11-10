@@ -146,9 +146,15 @@ body {
 
 /*---------------------------------Шапка------------------------------*/
 .hero {
+  width: 1600px;
+  height: 600px;
+  margin: 0 auto;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: var(--nav-bg-color);
+  /*background-color: var(--nav-bg-color);*/
+  background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(../images/hero.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .hero-title {
@@ -276,6 +282,7 @@ body {
   padding-bottom: 30px;
   flex-wrap: wrap;
   text-align: center;
+  background-color: var(--subject-color);
 }
 
 .user-image {
@@ -295,9 +302,42 @@ body {
   font-size: 16px;
   line-height: 1.1875;
   letter-spacing: 0.03em;
+  margin-bottom: 16px;
 }
 
+.user-soc-list {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
 
+.user-soc-item {
+  width: 44px;
+  height: 44px;
+}
+
+.user-soc-link {
+  width: 100%;
+  height: 100%;
+  /*background-color: #2196f3;*/
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.user-soc-link:hover,
+.user-soc-link:focus {
+  background-color: var(--accent-color);
+}
+
+.user-soc-icon {
+  fill: #AFB1B8;
+}
+
+.user-soc-link:hover .user-soc-icon {
+  fill: var(--subject-color);
+}
 
 
 /*---------------------------------Футер--------------------------------*/
