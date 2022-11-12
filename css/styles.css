@@ -129,6 +129,9 @@ body {
   line-height: 1.1429;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
   /*margin-right: 30px;*/
   margin-left: 50px;
 }
@@ -136,6 +139,7 @@ body {
 .contacts-link:hover,
 .contacts-link:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 
 .container {
@@ -146,19 +150,16 @@ body {
   /*outline: 2px solid red;*/
 }
 
-/*.header-soc-item {  
-  margin-right: 10px;
-  fill: var(--title-text-color);
-}
-
-/*.header-soc-block {
-  margin-right: 10px;
+.header-soc-item,
+.header-soc-block {
   fill: var(--title-text-color);
 }
 
 .header-soc-icon {
   margin-right: 10px;
-}*/
+}
+
+
 
 /*---------------------------------Шапка------------------------------*/
 .hero {
