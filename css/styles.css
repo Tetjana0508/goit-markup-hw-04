@@ -120,6 +120,7 @@ body {
 .contacts {
   display: flex;
   align-items: center;
+  /*margin-left: 50px;*/
 }
 
 .contacts .contacts-link {
@@ -128,6 +129,7 @@ body {
   line-height: 1.1429;
   letter-spacing: 0.02em;
   color: var(--title-text-color);
+  /*margin-right: 30px;*/
   margin-left: 50px;
 }
 
@@ -143,6 +145,20 @@ body {
   margin: 0 auto;
   /*outline: 2px solid red;*/
 }
+
+/*.header-soc-item {  
+  margin-right: 10px;
+  fill: var(--title-text-color);
+}
+
+/*.header-soc-block {
+  margin-right: 10px;
+  fill: var(--title-text-color);
+}
+
+.header-soc-icon {
+  margin-right: 10px;
+}*/
 
 /*---------------------------------Шапка------------------------------*/
 .hero {
@@ -240,8 +256,6 @@ body {
   font-size: 36px;
   line-height: 1.1667;
   letter-spacing: 0.03em;
-}
-.specialty .heading {
   margin-bottom: 50px;
   color: var(--primary-text-color);
 }
@@ -259,11 +273,6 @@ body {
   padding-top: 94px;
   padding-bottom: 94px;
   background-color: var(--secondary-bg-color);
-}
-
-.section-user .heading {
-  margin-bottom: 50px;
-  color: var(--primary-text-color);
 }
 
 .user-list {
@@ -337,6 +346,42 @@ body {
 
 .user-soc-link:hover .user-soc-icon {
   fill: var(--subject-color);
+}
+
+
+/*------------------------------Постійні клієнти---------------------------*/
+.section-clients {
+  padding-bottom: 94px;
+}
+
+.clients-list {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.clients-link {
+  width: 170px;
+  height: 92px;
+  border-radius: 4px;
+  border: 1px solid #AFB1B8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clients-soc-icon {
+  fill: #AFB1B8;
+}
+
+.clients-soc-icon:hover,
+.clients-soc-icon:focus {
+  fill: var(--accent-color);
+}
+
+.clients-link:hover,
+.clients-link:focus {  
+  border-color: var(--accent-color);
 }
 
 
