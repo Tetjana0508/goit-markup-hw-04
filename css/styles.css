@@ -18,7 +18,7 @@ font-family: 'Roboto', sans-serif;*/
   --footer-link-color: rgba(255, 255, 255, 0.6);
   --logo-color: #000000;
   --primary-bg-color: #f5f5f5;
-  --secondary-bg-color: #f5f4fa;
+  --secondary-bg-color: #e6e6e9;
   --nav-bg-color: #2f303a;
 }
 
@@ -247,6 +247,19 @@ body {
   gap: 30px;
 }
 
+.features-block {
+  margin-bottom: 30px;
+  width: 270px;
+  height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--secondary-bg-color);
+  border-radius: 4px;
+}
+
+
+
 /*--------------------------------Чим ми займаємося------------------*/
 .specialty {
   padding-bottom: 95px;
@@ -352,6 +365,7 @@ body {
 
 /*------------------------------Постійні клієнти---------------------------*/
 .section-clients {
+  padding-top: 94px;
   padding-bottom: 94px;
 }
 
