@@ -295,6 +295,7 @@ body {
 
 .user-item {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .user-block {
@@ -551,14 +552,23 @@ body {
   flex-wrap: wrap;
   justify-content: center;
   gap: 30px;
+  
 }
 
 .filter .filter-list {
   background-color: var(--subject-color);
 }
 
-.filter-list {
+.filter-link {
   display: block;
+  text-decoration: none;
+  list-style: none;
+  color: var(--title-text-color);
+  }
+
+.filter-link:hover,
+.filter-link:focus {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .filter-image {
